@@ -14,3 +14,4 @@ class InsertSort(BaseSort):
 
 if __name__ == "__main__":
     array = InsertSort().sort([1, 2, 4, 5, 4, 2, 4, 5, 7, 1, 4, 1, 13])
+    # array sorted:  [1, 1, 1, 2, 2, 4, 4, 4, 4, 5, 5, 7, 13]

@@ -28,4 +28,5 @@ class MergeSort(BaseSort):
 
 if __name__ == "__main__":
     array = MergeSort().sort([2, 3, 1, 34, 4, 32, 1, 4, 5])
-    print(array)
+    print("array sorted: ", array)
+    # array sorted:  [1, 1, 2, 3, 4, 4, 5, 32, 34]

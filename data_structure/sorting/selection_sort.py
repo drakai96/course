@@ -11,7 +11,7 @@ class SelectionSort(BaseSort):
             idx_min += i
             new_array[i] = min_value
             new_array[idx_min] = compare_array[0]
-        print(new_array)
+        print("array sorted: ", new_array)
         return new_array
 
     def min_function(self, array):
@@ -26,3 +26,4 @@ class SelectionSort(BaseSort):
 
 if __name__ == "__main__":
     array = SelectionSort().sort([2, 4, 56, 2, 5, 43, 2, 9, 2, 5, 23, 10])
+    # array sorted:  [2, 2, 2, 2, 4, 5, 5, 9, 10, 23, 43, 56]

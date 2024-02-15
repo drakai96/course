@@ -14,3 +14,4 @@ class Bubble_Sort(BaseSort):
 
 if __name__ == "__main__":
     array = Bubble_Sort().sort([1, 3, 4, 5])
+    # result
